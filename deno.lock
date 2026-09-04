@@ -34,6 +34,7 @@
     "npm:markdown-it-anchor@^9.2.1": "9.2.1_markdown-it@15.0.1",
     "npm:markdown-it-attrs@5.0.1": "5.0.1_markdown-it@15.0.1",
     "npm:markdown-it-deflist@4.0.0": "4.0.0",
+    "npm:markdown-it@15.0.0": "15.0.0",
     "npm:markdown-it@^15.0.1": "15.0.1"
   },
   "jsr": {
@@ -324,17 +325,29 @@
       "integrity": "sha512-p6APiLJDFAW2GEvaavDvhIBn7jrX2jLv77NkBGgNacFTurbORYc4pyYySg/mI6mpR6cHQuAtzKtmqgQr4K8dsQ==",
       "dependencies": [
         "@types/markdown-it",
-        "markdown-it"
+        "markdown-it@15.0.1"
       ]
     },
     "markdown-it-attrs@5.0.1_markdown-it@15.0.1": {
       "integrity": "sha512-dTP49/FLERwbgqmfIG5LwnC99qecIJYalKQbl3pY+7Hajk+Z+cazeEZaKwofpM9KFxvfRVF0UN9GYxKKAakfNg==",
       "dependencies": [
-        "markdown-it"
+        "markdown-it@15.0.1"
       ]
     },
     "markdown-it-deflist@4.0.0": {
       "integrity": "sha512-06186ZWDwNLg638THD70MxBeFrDMF0+nL7IWU/qwCGHGOcUIm4MTYXbfjpv0ooWnVjkSnAjW8msKaOQmNRfY6Q=="
+    },
+    "markdown-it@15.0.0": {
+      "integrity": "sha512-Lf8ajvVNdRpzSNB4VegxNy7gjs8gU35l4b4+ET49LrQC5PKYwLZ72u60LeJ9gv3qiaesuYjJWCyVeQmv/QWKQw==",
+      "dependencies": [
+        "argparse",
+        "entities",
+        "linkify-it",
+        "mdurl",
+        "punycode.js",
+        "uc.micro"
+      ],
+      "bin": true
     },
     "markdown-it@15.0.1": {
       "integrity": "sha512-9/7gE95FNPkfUWrjJIoHZza2iLmuJlPD0UNMxPi7bxUrbCR525YZY0r+zyfes0dZI5ZZ/uNIXUJca0pJvtw41g==",
