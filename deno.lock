@@ -4,8 +4,8 @@
     "jsr:@std/assert@^1.0.19": "1.0.19",
     "jsr:@std/html@^1.0.7": "1.0.7",
     "jsr:@std/internal@^1.0.12": "1.0.14",
-    "npm:markdown-it-anchor@10": "10.0.0_@types+markdown-it@14.2.0_markdown-it@15.0.2",
-    "npm:markdown-it@^15.0.2": "15.0.2"
+    "npm:markdown-it-anchor@10": "10.0.0_markdown-it@15.0.3",
+    "npm:markdown-it@^15.0.3": "15.0.3"
   },
   "jsr": {
     "@std/assert@1.0.19": {
@@ -35,11 +35,11 @@
     "@types/mdurl@2.0.0": {
       "integrity": "sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg=="
     },
-    "argparse@3.0.1": {
-      "integrity": "sha512-nM4mHF/KM1v59ZNKX7zfusQz5wUAxR511YG8Vo6TyiV4aqhu++rbJW4v04xsWhpSsHFj66flT8P7znVpyO20xQ=="
+    "argparse@3.0.3": {
+      "integrity": "sha512-Sn98ftV3KfsO8xfLPHG6oT8y+b0yvbrLgZjgPDXsharNY15tTAjqIsIju4S32nl6/iEUNNE4v+yL2Zhm8ooP3w=="
     },
-    "entities@8.0.0": {
-      "integrity": "sha512-zwfzJecQ/Uej6tusMqwAqU/6KL2XaB2VZ2Jg54Je6ahNBGNH6Ek6g3jjNCF0fG9EWQKGZNddNjU5F1ZQn/sBnA=="
+    "entities@8.1.0": {
+      "integrity": "sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA=="
     },
     "linkify-it@6.1.0": {
       "integrity": "sha512-wJ/TwpSDTLepCrQoYWYIExIKg5Zchex2Nn5yk2mFnB+6PtdkHtyLx742md9csRjjOnGkKIS/RrbY7l8D6gT9Vw==",
@@ -47,15 +47,15 @@
         "uc.micro"
       ]
     },
-    "markdown-it-anchor@10.0.0_@types+markdown-it@14.2.0_markdown-it@15.0.2": {
+    "markdown-it-anchor@10.0.0_markdown-it@15.0.3": {
       "integrity": "sha512-Q8g7Z6OBdH3eXF0lujFqukIxUvgCDZcjzCrJxmD6QiEzU1HWR9fVN+Bf6gxmM+0yrPFs+jUw8gNjLmUQqt6Eew==",
       "dependencies": [
         "@types/markdown-it",
         "markdown-it"
       ]
     },
-    "markdown-it@15.0.2": {
-      "integrity": "sha512-q4IGxMv56jCqT4OCRCADBoDP3LO4MhmTXjFbphHPXs4g3j9Xg5RDnxqN8IF/3vIWEU+VCnUq+7JUg/cfy2E6Qw==",
+    "markdown-it@15.0.3": {
+      "integrity": "sha512-+Az7Ojz3iRGu8KYMvJ6xVhvrxP3eE+vEtJX75Ow88XBpcQNV/0lGX5ZynIIBftREo4DC2jsveAMDaeltmm8QvQ==",
       "dependencies": [
         "argparse",
         "entities",
@@ -81,7 +81,7 @@
       "jsr:@std/assert@^1.0.19",
       "jsr:@std/html@^1.0.7",
       "npm:markdown-it-anchor@10",
-      "npm:markdown-it@^15.0.2"
+      "npm:markdown-it@^15.0.3"
     ]
   }
 }
